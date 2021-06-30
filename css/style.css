@@ -1,6 +1,7 @@
 body{
     background-color: #f3f3f3;
 }
+
 .row{
     min-height: 40vh;
 }
@@ -12,5 +13,9 @@ body{
 
 .items >*{
     margin: 5px 0;
+    text-transform: capitalize;
 }
 
+#psw{
+    text-transform: lowercase;
+}
