@@ -20,11 +20,26 @@ var pColor = document.getElementById('color');
 var pPsw = document.getElementById('psw');
 
 
-//debug inline
-console.log('nome: ', name);
-console.log('cognome: ', surname);
-console.log('colore: ', color);
+//debug string name
+if(name.match('[0-9]')){
+    console.log("invalid name.");
+}else{
+    console.log('nome: ', name);
+}
 
+//debug string surname
+  if(name.match('[0-9]')){
+    console.log("invalid surname.");
+  }else{
+    console.log('cognome: ', surname);
+  }
+
+//debug string color
+  if(name.match('[0-9]')){
+    console.log("invalid color.");
+  }else{
+    console.log('colore: ', color);
+  }
 
 
 //write html
