@@ -21,25 +21,25 @@ var pPsw = document.getElementById('psw');
 
 
 //debug string name
-if(name.match('[0-9]')){
+if (name.match('[0-9]')) {
     console.log("invalid name.");
-}else{
+} else {
     console.log('nome: ', name);
 }
 
 //debug string surname
-  if(name.match('[0-9]')){
+if (name.match('[0-9]')) {
     console.log("invalid surname.");
-  }else{
+} else {
     console.log('cognome: ', surname);
-  }
+}
 
 //debug string color
-  if(name.match('[0-9]')){
+if (name.match('[0-9]')) {
     console.log("invalid color.");
-  }else{
+} else {
     console.log('colore: ', color);
-  }
+}
 
 
 //write html
