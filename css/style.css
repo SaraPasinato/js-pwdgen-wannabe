@@ -5,7 +5,7 @@ body{
     min-height: 40vh;
 }
 
-[class*='col-']{
+.items{
   box-shadow:  0 0 5px #000;
   background-color: #fff;
 }
